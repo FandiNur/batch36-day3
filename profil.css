@@ -1,0 +1,102 @@
+.container{
+  /* background-color: blue; */
+  
+  display: flex;
+  height: 93vh;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.page1 {
+  flex: 100px;
+
+
+}
+.page-profil{
+  border: 1px solid black;
+  box-shadow: 0 0 10px black;
+  border-radius: 5px ;
+  display: flex;
+  margin: 50px;
+  padding: 20px;
+}
+
+
+
+.profil-right {
+  /* border: 1px solid black; */
+ flex : 10%;
+
+}
+.profil-left {
+  /* background-color: bisque; */ 
+  flex: 70%;
+  display: flex
+  ;
+  
+}
+.profil {
+  width: 80%;
+  margin: 60px auto;
+  padding: 10px;
+}
+
+.card {
+  
+  box-shadow: 0 0 10px black;
+  border-radius: 5px ;
+  margin: 20px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;;
+  position: relative;
+}
+.gambar-1{
+  width: 100%;
+  text-decoration: none;
+}
+
+.mail-cv{
+  display: flex;
+  text-align: center;
+ 
+}
+
+
+
+.mail-cv a {
+  /* background-color: black;  */
+  /* border: 1px; */
+  /* border-radius: 10%; */
+  text-decoration: none;
+  /* color: white; */
+  padding: 7px 5px 0px 5px;
+  margin-left: 75px ;
+}
+.icon {
+    width: 35px;
+}
+.contact1 {
+  background-color: black; 
+  border: 1px;
+  border-radius: 10%;
+  text-decoration: none;
+  color: white;
+}
+
+.social-media {
+  list-style-type: none;
+  width: 200px;
+ 
+  margin-top: 10px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+}
+.social-media >li{
+
+  text-decoration: none;
+  margin: 0 auto;
+}
